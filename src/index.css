@@ -4,12 +4,13 @@
 @tailwind components;
 @tailwind utilities;
 
+.textStyle {
+  @apply text-[12px] sm:text-sm text-gray-950;
+}
+
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
   font-family: "Figtree", serif;
-}
-body {
-  background-color: #f4d04e;
 }
